@@ -9,8 +9,8 @@ cd dm_project
 ### Environment and dependencies
 Create an environment with your preferred method. For example with anaconda you can use:
 ```
-conda create -n txa_project python=3.12
-conda activate txa_project
+conda create -n dm_project python=3.12
+conda activate dm_project
 ```
 
 Then install the requirements running
@@ -40,6 +40,7 @@ nbdiff-web [<commit> [<commit>]] [<path>]
 
 1. Pull the repository
 ```
+git fetch
 git pull
 ```
 2. Create a new branch and check it out
