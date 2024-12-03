@@ -1,0 +1,48 @@
+\documentclass[a4paper, 10pt, twocolumn, DIV=calc]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{arsclassica}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{top=1cm,bottom=1.5cm,left=2.5cm,right=2.5cm,includehead,includefoot}
+\setlength{\columnsep}{7mm}
+
+\begin{document}
+
+% Pagina del titolo
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+
+    % Logo (facoltativo)
+    \includegraphics[width=0.3\textwidth]{img/logo_università.png} \\[1.5cm]
+
+    % Titolo
+    {\Huge \textbf{Data mining 1 project}} \\[1cm]
+
+    % Autore e info
+    \Large
+    \textbf{Authors:}\\ Nome Cognome \\
+                        Nome Cognome \\
+                        Nome Cognome \\
+
+    \textbf{Master's Degree:} Nome del Corso \\
+    \textbf{Docente:} Nome Docente \\[1cm]
+
+    % \tableofcontents
+
+    % Data
+    \vfill
+    %\Large \textbf{\today}
+
+\end{titlepage}
+
+
+% Here goes the content of the report
+\input{data_preparation}
+\input{clustering}
+
+\end{document}
